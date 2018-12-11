@@ -40,6 +40,4 @@ Test Case Id     Test Scenario               Test Steps       Test Data      Exp
 5.		 Invalid book title          Search Book      jhvjhv	     Show sorry image	  Show sorry image   pass
 
 
-- Reenu
-  reenusihagdatta@gmail.com
-                      
+- Munny Kumar                      

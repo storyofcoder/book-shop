@@ -1,0 +1,45 @@
+
+
+<header>
+    <a href="/"><span class="logo">Book-Shop</span></a>
+    <input placeholder="Find your book here..." id="txt">
+    <i class="fas fa-search" style="color: lightgray" onclick="send()" id="btn"></i>
+
+</header>
+
+<div class="main_div">
+<center>
+    <img src="https://i1.wp.com/freepngimages.com/wp-content/uploads/2017/07/open-book-no-background-image.png?fit=500%2C500" height="400px" >
+</center>
+</div>
+
+<script>
+    function send() {
+        var value = $('#txt').val();
+        if(value != ""){
+            $('#txt').value = "";
+            $.ajax({
+                //the url to send the data to
+                url: '/'+value,
+                //the data to send to
+                //type. for eg: GET, POST
+                type: "GET",
+                //datatype expected to get in reply form server
+                dataType: "json",
+                //on success
+                success: function(data){
+
+                },
+                //on error
+                error: function(){
+                    //bad request
+                }
+            });
+            $('.main_div').load('/'+value);
+        }
+    }
+</script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</body>
+</html>

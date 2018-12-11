@@ -1,0 +1,33 @@
+<div class="main_div">
+        {{#each result }}
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="{{this.thumbnail}}" style="position: relative;left: 33%">
+                        <div class="details">
+                            <b>Title : </b><span class="de" style="margin-bottom: 15px">{{this.title}}</span><br>
+                            <b>Author : </b><span class="de"> {{this.authors}}</span><br>
+                            <b>Publisher : </b><span class="de"> {{this.publisher}}</span><br>
+                            <b>Published Date : </b><span class="de"> {{this.publishedDate}}</span><br>
+                            <b>Total Pages : </b><span class="de">{{this.pageCount}}</span><br>
+                            <b>Language : </b><span class="de">{{this.language}}</span>
+                        </div>
+                    </div>
+                    <div class="back">
+                         &nbsp;&nbsp;<b> Published Date : </b><span>{{this.publishedDate}}</span>
+                        <p style="max-height: 300px;width: 280px;margin: 0px;padding-left:20px;padding-right: 0 ;overflow: hidden;font-size: 14px   ">{{this.description}}</p>
+                        <br> &nbsp;&nbsp;&nbsp;<a href="{{this.link}}">Click here to open book</a>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    {{#if value}}
+        <center>
+            <img src="https://cdn.dribbble.com/users/463734/screenshots/2016792/attachments/356197/empty_result.png" height="350px" >
+        </center>
+    {{/if}}
+
+</div>
+
+
+

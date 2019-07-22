@@ -1,6 +1,8 @@
-### Book Shop
+## Book Shop
 
 http://book-shop-1.herokuapp.com/
+
+### A online book store offers you millions of titles across categories like Children's Books, Free eBooks, Audiobooks, Business & Economics, and Literature
 
 ## To start 
 - save my repository

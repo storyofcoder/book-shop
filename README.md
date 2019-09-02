@@ -19,4 +19,4 @@ install
 
 then start on : http://localhost:3000
 
-- Munny Kumar
+- Kirti

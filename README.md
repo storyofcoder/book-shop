@@ -1,22 +1,25 @@
-## Book Shop
+# Book Shop
+> A online book store offers you millions of titles across categories like Children's Books, Free eBooks, Audiobooks, Business & Economics, and Literature <br> Live at: http://book-shop-1.herokuapp.com/
 
-http://book-shop-1.herokuapp.com/
+## Screenshots
+![Example screenshot](./img/screenshot.png)
 
-### A online book store offers you millions of titles across categories like Children's Books, Free eBooks, Audiobooks, Business & Economics, and Literature
+## Technologies
+* Node.js
+* Bootstrap
 
-## To start 
-- save my repository
+## Setup
+To start, You can download my repo then <br> run -> npm i to install all dependencies and then <br> run -> node server.js to start the node server.
 
-## Working on node.js, Express, Mongodb etc... 
+## Features
+List of features ready and TODOs for future development
+* Awesome feature 1
+* Awesome feature 2
+* Awesome feature 3
 
-install 
-   `-node.js` 
-  `-mongodb`
 
-## run command on IDE terminal
-  `-npm install`
-  `-npm start` 
+## Status
+Project is: Completed
 
-then start on : http://localhost:3000
-
-- Kirti
+## Contact
+``` - Munny Kumar ( Software Engineer ) ```

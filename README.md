@@ -2,7 +2,14 @@
 > A online book store offers you millions of titles across categories like Children's Books, Free eBooks, Audiobooks, Business & Economics, and Literature <br> Live at: http://book-shop-1.herokuapp.com/
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+``` Home ```
+![Home](https://raw.githubusercontent.com/storyofcoder/book-store/master/screenshots/home.jpg)
+
+``` Result ```
+![Result](https://raw.githubusercontent.com/storyofcoder/book-store/master/screenshots/result.jpg)
+
+``` Not Found ```
+![NotFound](https://raw.githubusercontent.com/storyofcoder/book-store/master/screenshots/notFound.jpg)
 
 ## Technologies
 * Node.js
